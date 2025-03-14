@@ -27,7 +27,7 @@ const Home = () => {
     }, []);
   return (
     <>
-      <section>
+      <section className="">
         <div className="video-container">
           <video autoPlay loop muted className="background-video">
             <source src={video} type="video/mp4" />
